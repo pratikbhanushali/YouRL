@@ -8,6 +8,6 @@ $arrYourl = [
 	"url_type" 		=> "PAYMENT"
 ];
 
-$yourl 	  = new Yourl(YOURL_API_KEY, YOURL_AUTH_TOKEN);
-$response = $yourl->getShortUrl($arrYourl);
-$shortUrl = $response['shortUrl'];
+_$yourl 	  = new Yourl(YOURL_API_KEY, YOURL_AUTH_TOKEN);_
+_$response = $yourl->getShortUrl($arrYourl);_
+_$shortUrl = $response['shortUrl'];_
